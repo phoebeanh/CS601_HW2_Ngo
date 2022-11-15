@@ -1,3 +1,3 @@
-#PHOEBE NGO
-#MET CSCE601
-#Assignment 2
+# PHOEBE NGO
+## MET CSCE601
+### Assignment 2

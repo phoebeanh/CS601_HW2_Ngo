@@ -1,6 +1,103 @@
-* {
+head {
+    display: none;
+}
+
+body {
+    margin: 0;
     background-color: #fcfcfc;
     font-family: Arial, Helvetica, sans-serif;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+h1 {
+    height: auto;
+    color: white;
+    background: none;
+    align-items: center;
+    align-self: center;
+}
+
+h2 {
+    color: #a18eb4;
+}
+
+header {
+    padding: 4px;
+    max-height: 50px;
+    background: #a18eb4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    background: none;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    max-height: 15px;
+}
+
+nav a {
+    background: none;
+    color: #fcfcfc;
+    font: menu;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+table {
+    margin: 16px;
+    display: flex;
+    align-self: center;
+}
+
+td {
+    padding-right: 2em;
+}
+
+.table-header > td {
+    font-weight: bold;
+}
+
+main, footer, nav {
+    margin: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+}
+
+.profile {
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.intro {
+    padding: 8px 0 0 8px;
+    display: flex;
+    flex-flow: row;
+}
+
+.intro-content {
+    height: fit-content;
+    padding: 0 0 0 24px;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+
 
